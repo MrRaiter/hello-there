@@ -1,6 +1,6 @@
 {
   "name": "landing",
-  "homepage": "https://mrraiter.github.io/hello-there",
+  "homepage": "http://mrraiter.github.io/hello-there",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && cp build/index.html build/404.html",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
